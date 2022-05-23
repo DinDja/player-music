@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    
+    <title>Player Music</title>
+</head>
+
+<body>
+    <img src="img/Albumism_Nirvana_Nevermind_MainImage_16x9.png" alt="Nevermind">
+    <div class="description">
+        <h2>Come as you are</h2>
+        <i>Nirvana</i>
+    </div>
+
+    <div class="duration">
+        <div class="Barra">
+            <progress value="0.0" max="1"></progress>
+            <div class="point">
+
+            </div>
+        </div>
+        <div class="time">
+            <p class="inicio">0:00</p>
+            <p class="end">3:38</p>
+        </div>
+    </div>
+    <div class="Player">
+            <i class="fas fa-step-backward setas anterior"></i>
+            <i class="fas fa-play-circle botao-play"></i>
+            <i class="fas fa-pause-circle botao-pause"></i>
+            <i class="fas fa-step-forward setas proximo"></i>
+    </div>
+    <audio src="musicas/Nirvana-Come-As-You-Are.mp3"></audio>
+</body>
+<script src="script.js"></script>
+</html>
